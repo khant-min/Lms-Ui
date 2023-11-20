@@ -4,10 +4,11 @@ export default function Footer() {
   const creator = "Khant Min";
   const today = new Date().getFullYear();
   return (
-    <div style={{ width: "100%", backgroundColor: "#89DA00" }}>
+    <div
+      style={{ width: "100%", backgroundColor: "#52c41a", color: "#F7F2EE" }}
+    >
       <h2
         style={{
-          color: "#F7F2EE",
           padding: "0.5rem 1rem",
           textAlign: "center",
           fontSize: "20px",
@@ -19,7 +20,7 @@ export default function Footer() {
         <span>&copy;{today} All Rights Reserved.</span>
         <span>
           Powered by{" "}
-          <a href="https://github.com/khantmin" target="blank">
+          <a href="https://github.com/khant-min" target="blank">
             {creator}
           </a>
         </span>

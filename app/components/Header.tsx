@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div style={{ width: "100%", backgroundColor: "#89DA00" }}>
+    <div style={{ width: "100%", backgroundColor: "#52c41a" }}>
       <h1
         style={{
           color: "#F7F2EE",
