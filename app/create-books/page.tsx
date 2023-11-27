@@ -26,12 +26,10 @@ export default function page() {
           <Input placeholder="Enter book rental value" />
         </Form.Item>
         <Form.Item label="Book Image">
-          <Input placeholder="Upload book image" type="file" />
+          <Input placeholder="Upload book image" type="file" disabled />
         </Form.Item>
-        <Form.Item>
-          <Button style={{ marginLeft: "100%" }} type="primary">
-            Submit
-          </Button>
+        <Form.Item style={{ textAlign: "end" }}>
+          <Button type="primary">Submit</Button>
         </Form.Item>
       </Form>
     </div>

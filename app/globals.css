@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list {
+  @apply flex;
+}
+
+.list li {
+  @apply px-4 p-2 text-lg hover:scale-110 transition-all;
+}
+
+.auth span {
+  @apply hover:text-red-500 cursor-pointer transition-all;
+}
